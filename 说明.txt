@@ -1,0 +1,6 @@
+1. front下 npm i 装依赖包
+2. server下 npm i 装依赖包
+3. front 下代码打包之后，吧打包后的文件夹dist放到server下面
+4. 然后在server下面 node index.js 启动服务，浏览器访问home 和 about页面正常的
+5. 当改动一下about.vue里面的vue3代码时，随便改个a的值，然后再重新打包，把dist放到 server里，此时页面的about页面就访问不了了
+6. 百思不得其解啊
